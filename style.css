@@ -1,0 +1,36 @@
+:root {
+    --dark-green: #023336;
+    --medium-green: #4DA674;
+    --light-green: #C1E6BA;
+    --extra-light-green: #EAF8E7;
+}
+body {
+    background-color: var(--extra-light-green);
+    color: var(--dark-green);
+}
+header {
+    background-color: var(--dark-green);
+    color: #fff;
+}
+.btn-primary {
+    background-color: var(--medium-green);
+    border-color: var(--medium-green);
+}
+.btn-primary:hover {
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+.card {
+    background-color: var(--light-green);
+    border-color: var(--medium-green);
+}
+footer {
+    background-color: var(--dark-green);
+    color: #fff;
+}
+a {
+    color: var(--medium-green);
+}
+a:hover {
+    color: var(--dark-green);
+}
