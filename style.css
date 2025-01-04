@@ -94,3 +94,16 @@ footer a:hover {
     color: #fff;
     text-decoration: none;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%;
+}
+
+#project1-carousel .carousel-item img, #project-carousel .carousel-item img {
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: auto;
+}
+
